@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Start Header */
+header {
+  background: #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.somali {
+  flex: 1;
+  margin-left: 64px;
+  color: #5a4800;
+  font-family: "Merriweather", serif;
+}
+
+.somali span {
+  color: #f7be00;
+}
+.s-profile {
+  background: #f7be00;
+  margin-right: 64px;
+  padding: 5px 10px;
+  border-radius: 100%;
+  border: solid #5a4800 3px;
+}
+.topicon {
+  margin-right: 32px;
+}
+.topicon a {
+  color: #5a4800;
+  font-size: 20px;
+}
+/* End Header */
+.contanair {
+  display: flex;
+}
+/* Start Sidebar */
+aside {
+  background: #f7be00;
+  flex: 0.14;
+}
+.l-profile {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0px;
+}
+.l-profile img {
+  width: 90px;
+  border-radius: 100%;
+  border: solid #5a4800 5px;
+}
+.icons {
+  margin-left: 24px;
+}
+.icons a {
+  display: block;
+  line-height: 45px;
+  color: #5a4800;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.icons a i {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.icons a:hover {
+  background: whitesmoke;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding-left: 15px;
+}
+.active {
+  background: whitesmoke;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding-left: 15px;
+  margin: 5px 0px;
+}
+.socailegg {
+  text-align: center;
+  margin: 35px 0px;
+}
+.socail a {
+  color: #5a4800;
+  font-size: 30px;
+  margin: 0px -5px;
+}
+.egg {
+  margin: 25px 0px;
+}
+/* End Sidebar */
+
+/* start Content */
+.content {
+  background: whitesmoke;
+  flex: 0.86;
+}
